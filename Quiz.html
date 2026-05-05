@@ -1,0 +1,46 @@
+<!--
+Home_menu
+
+- made by Maria and Islam
+-->
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Vadehavet</title>
+    <link rel="icon" type="image/x-icon" href="img/Worm-logo.png">
+    <link rel='stylesheet' href='css\main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Backgrund_quiz">
+        <header class="Topbar_home">
+            <div class="Xp_pos Hidden">0 XP</div>
+            <h1 class="Small">Start dit eventyr her!</h1>
+            <div class="Menu_pos" onclick="Toggle_menu()">☰</div>
+    </header>
+        
+    <div id="Overlay" class="Overlay" onclick="Close_menu()"></div>
+    <div id="Side_menu" class="Side_menu">
+        <a href="Home_menu.html">Hjem</a>
+        <a href="Lear.html">Lær</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="Kort.html">Kort</a>
+        <a href="Spil.html">Spil</a>
+    </div>
+    
+        <!-- Hitbox -->
+        <a href="Level1.html" class="Hitbox Level1"></a>
+        <a href="Level2.html" class="Hitbox Level2"></a>
+        <a href="Level3.html" class="Hitbox Level3"></a>
+    </div>
+
+<button class="Back_button" onclick="location.href='Home_menu.html'"> <img src="img/Back_button.png" alt="Back"> </button>
+    
+    <script type="text/javascript" src="js/Script.js"></script>
+</body>
+</html>

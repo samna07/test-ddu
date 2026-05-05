@@ -1,0 +1,57 @@
+<!--
+Home_menu
+
+- made by Maria and Islam
+-->
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Vadehavet</title>
+    <link rel='stylesheet' href='css\main.css'>
+    <link rel="icon" type="image/x-icon" href="img/Worm-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="Backgrund_home">
+    
+    <header class="Topbar_home">
+    <div class="Xp_pos">0 XP</div>
+    <h1 id="Welcome">Velkommen</h1>
+    <div class="Menu_pos" onclick="Toggle_menu()">☰</div>
+    </header>
+    
+    <div id="Overlay" class="Overlay" onclick="Close_menu()"></div>
+    <div id="Side_menu" class="Side_menu">
+        <a class="Start_menu" onclick="location.href='Om_os.html'">Om Os</a>
+        <a class="Start_menu" onclick="location.href='Til_leare.html'">Til Lærere</a>
+        <a class="Start_menu" onclick="location.href='Kilder.html'">Kilder</a>
+    </div>
+    
+    <div class="Main_menu">
+    <div class="Main_menu_box">
+        <button class="Home_button" onclick="location.href='Lear.html'"> LÆR  </button>
+        <button class="Home_button" onclick="location.href='Quiz.html'"> QUIZ </button>
+        <button class="Home_button" onclick="location.href='Kort.html'">  KORT </button>
+        
+        <div class="Streak"> 
+        <img src="img/Streak_flame.png" alt="Streak"> 
+        <span>Streak (1)</span>
+        </div>
+
+        <button class="Home_button" onclick="location.href='Spil.html'"> SPIL </button>
+        
+        <div class="Niveau"> 
+        <div class="Number"> 1 </div> 
+        <span>Niveau (n)</span>
+        </div>
+    </div>
+    </div>
+    
+    <script src="js/Script.js"></script>
+    
+</body>
+</html>
